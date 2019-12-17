@@ -15,8 +15,7 @@ class CreateCaissesTable extends Migration
     {
         Schema::create('caisses', function (Blueprint $table) {
             $table->Increments('id');
-            $table->String('libelleCaisse');
-            $table->boolean('flag_etat')->default(false);
+            $table->String('libelle');
             $table->Integer('user_id')->unsigned()->index();
             $table->foreign('user_id')
                 ->references('id')

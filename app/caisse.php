@@ -4,7 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class caisse extends Model
+class Caisse extends Model
 {
-    //
+    public  function  user(){
+        return $this->belongsTo('App\User');
+    }
 }

@@ -2,9 +2,15 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Support\Facades\DB;
+use Laravel\Passport\HasApiTokens;
 
-class client extends Model
+
+
+class Client extends Authenticatable
 {
-    //
+
 }

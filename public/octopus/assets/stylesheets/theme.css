@@ -1533,7 +1533,7 @@ html.header-dark .header .input-search .input-group-btn .btn-default {
 }
 
 .sidebar-left .sidebar-header .sidebar-title {
-	color: #465162;
+	color: rgba(252, 250, 255, 1);
 	padding: 15px;
 	font-size: 15px;
 	font-size: 1.5rem;
